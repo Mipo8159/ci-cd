@@ -7,12 +7,12 @@ function App() {
 
   return (
     <div className='App'>
-      <h1 style={{ fontSize: 70, color: 'red' }}>value = {state}</h1>
+      <h1 style={{ fontSize: 50, color: 'black' }}>value = {state}</h1>
       <button
-        style={{ background: 'black', color: 'white', padding: 15 }}
+        style={{ background: 'red', color: 'white', padding: 15 }}
         onClick={increment}
       >
-        incremernt
+        incremernting!
       </button>
     </div>
   );
